@@ -68,6 +68,7 @@ input {
 input[type='text'] {
   padding: 3px;
   position: relative;
+  background: #fff;
   border: 1px solid #bfc1c4;
   border-radius: 3px;
   outline: 0;
