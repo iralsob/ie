@@ -1,5 +1,6 @@
 body {
   font-size: 16px;
+  font-family: Arial;
   margin: 2em;
   color: #333;
   background: #f5f5f5;
@@ -25,7 +26,23 @@ form {
   bottom: 1.5%;
   width: 60%;
   z-index: -1;
-  background: #ccc;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100 */
+
+  background: #ffffff;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+  /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+  /* IE6-9 */
+
   right: 1.5%;
 }
 .block .row:last-child {
