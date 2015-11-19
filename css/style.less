@@ -23,8 +23,22 @@ form
 .block
 {
     display: inline-block;
+    position: relative;
 
     width: 100%;
+      margin-bottom: 20px;
+    &-bg {
+    	position: absolute;
+    	top:-1.5%;
+    	bottom:1.5%;
+    	width: 60%;
+    	z-index: -1;
+    	background: #ccc;
+    	right:1.5%;
+    }
+    .row:last-child {
+    	margin-bottom: 0;
+    }
 }
 .row
 {
