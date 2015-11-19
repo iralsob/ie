@@ -81,8 +81,23 @@ input[type='submit'] {
   color: #354412;
   outline: 0;
   border-radius: 3px;
-  background: -webkit-linear-gradient(#bae15a, #90bc27);
-  background: linear-gradient(#bae15a, #90bc27);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bae15a+0,90bc27+100 */
+
+  background: #bae15a;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #bae15a 0%, #90bc27 100%);
+  /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(top, #bae15a 0%, #90bc27 100%);
+  /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to bottom, #bae15a 0%, #90bc27 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bae15a', endColorstr='#90bc27', GradientType=0);
+  /* IE6-9 */
+
   -webkit-box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px 0 rgba(78, 79, 81, 0.5);
   box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px 0 rgba(78, 79, 81, 0.5);
   text-shadow: 1px 1px 1px #d0ff62;
