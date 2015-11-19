@@ -76,6 +76,7 @@ input[type='text'] {
   box-shadow: 0 1px 3px 0 rgba(78, 79, 81, 0.5) inset;
   zoom: 1;
   behavior: url('../piea/PIE.htc');
+  behavior: url('/pie/border-radius.htc');
 }
 input[type='submit'] {
   padding: 5px 10px;
@@ -105,4 +106,5 @@ input[type='submit'] {
   text-shadow: 1px 1px 1px #d0ff62;
   zoom: 1;
   behavior: url('../pie/PIE.htc');
+  behavior: url('/pie/border-radius.htc');
 }
