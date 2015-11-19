@@ -41,7 +41,7 @@ input[type='text'] {
   outline: 0;
   -webkit-box-shadow: 0 1px 3px 0 rgba(78, 79, 81, 0.5);
   box-shadow: 0 1px 3px 0 rgba(78, 79, 81, 0.5) inset;
-  behavior: url('/pie/PIE.htc');
+  behavior: url('/css/PIE.htc');
 }
 input[type='submit'] {
   padding: 5px 10px;
@@ -54,5 +54,5 @@ input[type='submit'] {
   box-shadow: 0 0 2px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px 0 rgba(78, 79, 81, 0.5);
   text-shadow: 1px 1px 1px #d0ff62;
   -pie-background: url(bg-image.png) no-repeat, linear-gradient(#bae15a, #90bc27);
-  behavior: url('/pie/PIE.htc');
+  behavior: url('/css/PIE.htc');
 }
